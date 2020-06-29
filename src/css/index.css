@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+#con{
+    width: 50%;
+    height: 600px;
+    margin: 100px auto;
+    background: url(../img/bg.png);
+    /* background-color:red; */
+}
+.newGoal{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: #fff; */
+}
+.newGoal span{
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+}
+.newGoal input{
+    height: 25px;
+    width: 50%;
+    padding: 5px;
+}
+.newGoal button{
+    display: inline-block;
+    width: 8%;
+    height: 40px;
+}
+ul h3,ol h3{
+    padding-left: 10%;
+    color: #fff;
+}
+ul li,ol li{
+    position: relative;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2px;
+    padding-left: 5px;
+    border-left: 3px green solid;
+    background-color: #fff;
+}
+ul li a,ol li a{
+    position: absolute;
+    right: 2%;
+    text-decoration: none;
+}
