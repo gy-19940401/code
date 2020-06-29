@@ -32,6 +32,24 @@
     width: 8%;
     height: 40px;
 }
+.modify{
+    /* display: none; */
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    margin-left:-100px;
+    text-align: center;
+    background-color: #fff;
+    z-index: 5;
+}
+.modify input{
+    margin-top: 50px;
+    height: 30px;
+}
+.modify button{
+    margin-top: 20px;
+}
 ul h3,ol h3{
     padding-left: 10%;
     color: #fff;
@@ -46,8 +64,13 @@ ul li,ol li{
     border-left: 3px green solid;
     background-color: #fff;
 }
-ul li a,ol li a{
+ul li a:nth-child(3),ol li a:nth-child(3){
     position: absolute;
     right: 2%;
+    text-decoration: none;
+}
+ul li a:nth-child(2),ol li a:nth-child(2){
+    position: absolute;
+    right: 10%;
     text-decoration: none;
 }
